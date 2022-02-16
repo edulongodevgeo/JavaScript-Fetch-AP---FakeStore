@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.images {
+  width: 50%;
+}
